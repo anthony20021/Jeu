@@ -10,7 +10,7 @@
         "APP_ENV":"local",
         "APP_KEY":"base64:Hmh/py3JM3x3QihraLtgH5ZiCYv4OTbl2eDPskE39KQ:",
         "APP_DEBUG":"true",
-        "APP_URL":"http://localhost",
+        "APP_URL":"jeu-67hw2yohc-anthonys-projects-554e8ae1.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",

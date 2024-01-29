@@ -1,11 +1,8 @@
 {
-    "version": 2,
-      "framework": null,
-    "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
-    },
-    "routes": [ { "src": "/build/(.*)", "dest": "/public/build/" }, { "src": "/resources/(.*)", "dest": "/public/resources/" }, { "src": "/favicon/(.*)", "dest": "/public/favicon/" }, { "src": "/(.*)", "dest": "/api/index.php" } ],
-    "env": {
+        "version": 2,
+        "functions": { "api/index.php": { "runtime": "vercel-php@0.5.2" } },
+        "routes": [{ "src": "/(.*)", "dest": "/api/index.php" }],
+        "env": {
         "APP_NAME":"Laravel",
         "APP_ENV":"local",
         "APP_KEY":"base64:Hmh/py3JM3x3QihraLtgH5ZiCYv4OTbl2eDPskE39KQ:",
